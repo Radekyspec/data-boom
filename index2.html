@@ -447,7 +447,7 @@
                 }
             }
             if (running == true)
-                xhr[id] = $.get("https://wwwffppl-1327818798.cos.ap-nanjing.myqcloud.com/laolao/01882798.zip", function() {
+                xhr[id] = $.get("https://wwwffppl-1327818798.cos.ap-nanjing.myqcloud.com/laolao/01882798.zip?" + Math.random(), function() {
                     return download(id);
                 });
         };
